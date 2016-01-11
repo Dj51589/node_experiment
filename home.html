@@ -1,0 +1,39 @@
+<!-- home.html -->
+    <div>
+        <div class="searchbox">
+                <input type="text", placeholder="Search by name" ng-model="search.name" ng-minlength="3">
+        </div>
+        <div ng-show="searchList.length > 0">
+        	<strong>List of Cities</strong>
+        	<table cellpadding="2px;" cellspacing="2px;" border="1px;" style="width:200 px;">
+                        <tr>
+                                <th>Name</th>
+                                <th>Action</th>
+                        </tr>
+                        <tr ng-repeat="data in searchList | orderBy: 'name' | filter:search:length:3 ">
+                                <td>{{data.name}}</td>
+                                <td>
+                                        <input type="button", value=">", ng-click="movetoselect(data)">
+                                </td>
+                        </tr>
+                </table>
+        </div>
+        <div ng-show="selectedList.length > 0">
+                <strong>Selected Cities</strong>
+                <table cellpadding="2px;" cellspacing="2px;" border="1px;" style="width:200 px;">
+                        <tr>
+                                <th>Name</th>
+                                <th>Action</th>
+                        </tr>
+                        <tr ng-repeat="data in selectedList | orderBy: 'name'">
+                                <td>{{data.name}}</td>
+                                <td>
+                                        <input type="button", value="<", ng-click="movetosearchList(data)">
+                                </td>
+                        </tr>
+                </table>
+                <a href="#details">
+                        <input type="button" value="Show Details">
+                </a>
+        </div>
+    </div>

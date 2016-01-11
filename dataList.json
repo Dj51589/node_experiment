@@ -1,0 +1,65 @@
+[
+    {
+        "id":"1",
+        "name":"West Des Moines",
+        "city":"City of lowa",
+        "description":"West Des Moines is a city in Polk",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"University of Phoenix"    
+    },
+    {
+        "id":"2",
+        "name":"West Hollywood",
+        "city":"City of hollywood",
+        "description":"West Des Moines is a city in Polk hollywood",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"University of Phoenix"    
+    },
+    {
+        "id":"3",
+        "name":"West point",
+        "city":"City of lowa point",
+        "description":"West Des Moines is a city in Polk point",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"University of Phoenix"    
+    },
+    {
+        "id":"4",
+        "name":"New Delhi",
+        "city":"Capital of India",
+        "description":"Metro City",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"Delhi University"    
+    },
+    {
+        "id":"5",
+        "name":"Mumbai",
+        "city":"Metropplitan City",
+        "description":"City of Bollywood",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"Mumbai University"    
+    },
+    {
+        "id":"6",
+        "name":"Patna",
+        "city":"Capital of Bihar",
+        "description":"Have famous dishes",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"Patna University"    
+    },
+    {
+        "id":"7",
+        "name":"Banglore",
+        "city":"IT City of India",
+        "description":"IT Hub of India",
+        "area":"102.2 km",
+        "Population":"61,255(2013)",
+        "University":"Kernataka University"    
+    }
+]

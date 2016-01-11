@@ -1,0 +1,24 @@
+<!-- details.html -->
+    <div class="text-center">
+        <h1>Selected Cities Details</h1>
+        <div ng-show="selectedList.length > 0">
+                <table cellpadding="2px;" cellspacing="2px;" border="1px;" style="width:200 px;">
+                        <tr>
+                                <th>Name</th>
+                                <th>City</th>
+                                <th>Description</th>
+                                <th>Area</th>
+                                <th>Population</th>
+                                <th>University</th>
+                        </tr>
+                        <tr ng-repeat="data in selectedList | orderBy: 'name'">
+                                <td>{{data.name}}</td>
+                                <td>{{data.city}}</td>
+                                <td>{{data.description}}</td>
+                                <td>{{data.area}}</td>
+                                <td>{{data.Population}}</td>
+                                <td>{{data.University}}</td>
+                        </tr>
+                </table>
+        </div>
+    </div>
